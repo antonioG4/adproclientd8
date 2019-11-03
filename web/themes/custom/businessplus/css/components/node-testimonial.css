@@ -1,0 +1,69 @@
+/**
+ * @file
+ * Visual styles for Business+'s testimonial content type.
+ */
+.node--type-mt-testimonial .field--name-field-mt-tst-testimonial-image {
+  text-align: center;
+}
+.node--type-mt-testimonial .field--name-field-mt-tst-testimonial-image .overlay-container {
+  display: inline-block;
+  max-width: 70px;
+}
+.node--type-mt-testimonial .field--name-field-mt-tst-testimonial-image img {
+  border-radius: 100%;
+}
+.node--type-mt-testimonial .field--name-field-mt-tst-body p {
+  padding: 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+.node--type-mt-testimonial .field--name-field-mt-tst-subtitle {
+  color: #939393;
+  font-style: italic;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .field--name-field-mt-tst-testimonial-image {
+    margin-right: 30px;
+    float: left;
+    max-width: 70px;
+    max-height: 70px;
+  }
+  .node--type-mt-testimonial .field--name-field-mt-tst-testimonial-image ~ .field--name-field-mt-tst-testimonial-link,
+  .node--type-mt-testimonial .field--name-field-mt-tst-testimonial-image ~ .field--name-field-mt-tst-subtitle,
+  .node--type-mt-testimonial .field--name-field-mt-tst-testimonial-image ~ .field--name-field-mt-tst-body {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .node--type-mt-testimonial .field--name-field-mt-tst-testimonial-image {
+    margin-bottom: 10px;
+  }
+}
+.field--name-field-mt-tst-testimonial-link a {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 30px 15px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -ms-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  transition: all 0s ease-in-out;
+  margin: 10px 0;
+  text-align: center;
+  background-color: transparent;
+}
+.field--name-field-mt-tst-testimonial-link a:hover,
+.field--name-field-mt-tst-testimonial-link a:focus {
+  color: #ffffff;
+}

@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Business+ theme.
+
+businessplus.settings:
+  type: theme_settings
+  label: 'Business+ settings'
